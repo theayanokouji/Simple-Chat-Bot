@@ -6,7 +6,7 @@ import java.util.Scanner
 val scanner = Scanner(System.`in`) // Do not change this line
 
 fun main() {
-    greet("Aid", "2020") // change it as you need
+    greet("VortexBot", "2024") // change it as you need
     remindName()
     guessAge()
     count()
@@ -55,7 +55,7 @@ fun test() {
         4. To interrupt the execution of a program.
     """.trimIndent())
     // scan the users input
-    var answer = 0
+    var answer: Int
     do {
         answer = scanner.nextInt()
         if (answer != 2) {
